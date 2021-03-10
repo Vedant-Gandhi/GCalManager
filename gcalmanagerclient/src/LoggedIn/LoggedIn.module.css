@@ -1,0 +1,60 @@
+.LoggedIn {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primaryBlack);
+  color: var(--primaryWhite);
+  word-wrap: break-word;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.MainScreen {
+  margin-top: 5vh;
+  box-sizing: border-box;
+  display: grid;
+  border: 0;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 95vw;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1441px) {
+  .MainScreen {
+    grid-template-columns: 25% 25% 25%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .MainScreen {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 98vw;
+    grid-template-columns: 30% 30% 30%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .MainScreen {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 98vw;
+    grid-template-columns: 40% 40%;
+  }
+}
+@media screen and (max-width: 587px) {
+  .MainScreen {
+    grid-template-columns: 45% 45%;
+  }
+}
+@media screen and (max-width: 498px) {
+  .MainScreen {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    width: 99vw;
+    grid-template-columns: 70%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .MainScreen {
+    grid-template-columns: 90%;
+  }
+}

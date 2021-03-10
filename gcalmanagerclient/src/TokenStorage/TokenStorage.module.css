@@ -1,0 +1,47 @@
+.TokenStorage {
+  background-color: var(--primaryBlack);
+  width: 100vw;
+  height: 100vh;
+  color: var(--primaryWhite);
+
+  user-select: none;
+}
+.ContentArea {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  padding-top: 20vh;
+  text-align: center;
+}
+
+.ContentArea img {
+  width: 50vw;
+  height: 50vh;
+}
+.ContentArea p {
+  font-size: var(--tertiaryFontSize);
+}
+@media screen and (max-width: 846px) {
+  .ContentArea img {
+    width: 70vw;
+    height: 70vw;
+  }
+  .ContentArea {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top: 15vh;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .ContentArea img {
+    width: 80vw;
+    height: 80vw;
+  }
+  .ContentArea {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 20vh;
+    text-align: center;
+  }
+}
