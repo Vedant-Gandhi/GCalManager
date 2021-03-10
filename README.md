@@ -4,7 +4,7 @@ It is developed using NodeJS ,ExpressJS and ReactJS
 
 # Layout
 1. The root directory is divided into the client and server directories which consist of their respective files
-2. To use this project simply clone it and run npm install in both directories seperately run them.The server runs on port 3001 and client runs on port 3000
+2. To use this project simply clone it and run npm install in both directories seperately run them.
 3. The config.js file in client folder consist of all the configs and the AUTH_URL variable should consist of the OAUTH link for app access allowance
 4. In the server side the env must consist of the respective keys
 
